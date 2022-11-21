@@ -1,0 +1,170 @@
+body {
+  /* embedded fonts */
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Sono', sans-serif;
+}
+/* to get a font that some OS might not have, use whole path
+check www.cssfontstack.com for more options
+
+Can use font-embedding for the font to be seen from
+all users despite the OS
+
+fonts.google.com
+*/
+
+h1 {
+  /* embedded fonts */
+  color: #66BFBF;
+  margin: 20px auto 0 auto;
+  font-size: 3.5em;
+  font-family: 'Raleway', sans-serif;
+  line-height: 2;
+  /* font-family: 'Xanh Mono', monospace; */
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+}
+
+hr {
+  color: #40514E;
+  border: 5px dotted;
+  border-style: none none dotted;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a:hover{
+  color: #E4F9F5;
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.middle-container{
+  position: relative;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  position: relative;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+
+/*.pro {
+  text-decoration: underline;
+  visibility: hidden;
+}*/
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.graphic_designer {
+  float: left;
+  padding-right: 30px;
+  height: 20%;
+  width: 20%;
+}
+
+.web_developer {
+  float: right;
+  padding-left: 30px;
+  height: 20%;
+  width: 20%;
+}
+
+.creative_director{
+  float: left;
+  padding-right: 30px;
+  height: 20%;
+  width: 20%;
+}
+
+.camera_bruh{
+  float: right;
+  padding-left: 30px;
+  height: 20%;
+  width: 20%;
+}
+
+.developer_bruh{
+  float: left;
+  padding-right: 30px;
+  height: 20%;
+  width: 20%;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 75px auto 75px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  margin: auto auto 100px auto;
+}
+
+.contact-me-para{
+  margin: auto auto 100px auto;
+}
+
+.contact-button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.contact-button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.footer-link{
+  color: #11999E;
+  margin: 20px 30px;
+  text-decoration: none;
+}
+
+.footer-plavz {
+  font-size: 0.75rem;
+  padding-top: 10px;
+  color: #EAF6F6;
+}
